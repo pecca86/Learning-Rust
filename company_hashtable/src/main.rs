@@ -6,7 +6,7 @@ use std::io;
 // We can list all people in an department in alphabetical order
 fn main() {
     let mut company: HashMap<String, Vec<String>> = HashMap::new();
-    println!("Welcome! Please type 'add' then enter the name of the person, then the department to witch you would like to add the person\nIf you want to look up all the staff in a given department, type 'lookup' and then enter the department name");
+    println!("Welcome! Please type 'add' then enter the name of the person, then the department to witch you would like to add the person\nIf you want to look up all the staff in a given department, type 'lookup' and then enter the department name.");
 
     loop {
         println!("Type 'add' or 'lookup'");
